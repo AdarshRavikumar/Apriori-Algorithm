@@ -324,7 +324,7 @@ def main():
     for ik in range(n):
         inp=input().split()
         item.append(inp)
-    y=Apriori(item,min_support,min_confidence,3)
+    y=Apriori(item,min_support,min_confidence,min_length)
     
     
       
