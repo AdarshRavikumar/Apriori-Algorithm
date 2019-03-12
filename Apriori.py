@@ -314,11 +314,13 @@ class Apriori:
              
 def main():
     
-    n=int(input())
+    n=int(input("Enter number of transactions\n"))
     min_support=int(input("Minimum support\n"))
     min_confidence=float(input("Minimum Confidence\n"))
+    min_length=int(input(" Minimum Length of rules\n"))
     item=[]
         #db=pd.read_csv()
+    print("enter one trasaction per line\n")
     for ik in range(n):
         inp=input().split()
         item.append(inp)
