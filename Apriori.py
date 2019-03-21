@@ -281,7 +281,7 @@ class Apriori:
             #print("Answer After ever Iter",ans)
             if(len(ans)!=0):         
                 ItemSet.append(ans)
-            print("the list of frequent items are\n",ItemSet1)
+        print("the list of frequent items are\n",ItemSet1)
         #finItemSet has all element combination with support greater than min support and 
         finItemSet=[]
         for i in range(len(ItemSet)):
